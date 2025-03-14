@@ -1,5 +1,5 @@
 ### Introduction
-This project is an implementation of cluster compression algorithm.
+This project is an implementation of clustering compression algorithm.
 * Developers:
 * Advisors:
 
