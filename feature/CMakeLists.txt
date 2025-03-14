@@ -1,0 +1,1 @@
+add_library(feature STATIC features.cpp ../storage/our_feature.cpp)
