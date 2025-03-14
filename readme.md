@@ -7,7 +7,8 @@ This project is an implementation of clustering compression algorithm.
 lz4 zstd glog-under0.6.0 gflags gtest OpenBLAS gsl
 
 ### Test Files
-test data dir: `/cluster_compress/test_data/test/`
+test data dir: `/cluster_compress/test_data/test/`.
+
 put your test data in this dir.
 
 ### Build
