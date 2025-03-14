@@ -12,7 +12,7 @@ cd cluster_compress
 mkdir build
 cd build
 cmake ..
-make
+make -j
 cd ..
 ```
 
@@ -20,3 +20,6 @@ cd ..
 ```
 ./build/cluster_compression --config="config.toml"
 ```
+
+### Example Output
+![Example Output](example_output.png)
