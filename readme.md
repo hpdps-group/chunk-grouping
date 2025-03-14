@@ -1,8 +1,14 @@
+### Introduction
+This project is an implementation of cluster compression algorithm.
+* Developers:
+* Advisors:
+
 ### Dependences
 lz4 zstd glog-under0.6.0 gflags gtest OpenBLAS gsl
 
 ### Test Files
 test data dir: `/cluster_compress/test_data/test/`
+put your test data in this dir.
 
 ### Build
 To build the library, run the following commands：
