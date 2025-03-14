@@ -1,32 +1,38 @@
 ### Introduction
-This project is an implementation of clustering compression algorithm.
+This project implements a chunk grouping/clustering algorithm to enhance the compression ratio for general lossless compression.
 
 (C) 2025 by Institute of Computing Technology, Chinese Academy of Sciences.
 
-* Developers:
-* Advisors:
+* Developers: Junyu Long, Liyang Zhao
+* Advisors: Dingwen Tao, Guangming Tan
 
 ### Dependences
-lz4 zstd glog-under0.6.0 gflags gtest OpenBLAS gsl
+Ensure the following libraries are installed before building:
+- Compression Libraries: LZ4, Zstandard (ZSTD)
+- Logging & Flags: glog (version < 0.6.0), gflags
+- Testing Framework: gtest
+- Mathematical Libraries: OpenBLAS, GSL
 
 ### Test Files
-test data dir: `/cluster_compress/test_data/test/`
+Test data should be placed in
+```
+/cluster_compress/test_data/test/
+```
 
-put your test data in this dir.
+### Build the Project
+Run the following commands to clone, build, and compile the project:
 
-### Build
-To build the library, run the following commands：
 ```
 git clone git@github.com:xiaodou1117/cluster_compress.git
 cd cluster_compress
-mkdir build
-cd build
+mkdir build && cd build
 cmake ..
 make -j
 cd ..
 ```
 
-### Run
+### Running the Program
+Use the following command to execute the chunk grouping algorithm:
 ```
 ./build/cluster_compression --config="config.toml"
 ```
