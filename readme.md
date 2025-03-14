@@ -30,19 +30,3 @@ cd ..
 
 ### Example Output
 ![Example Output](example_output.png)
-
-### Reference
-@inproceedings{10.1145/3620665.3640353,
-author = {Huang, Hongming and Wang, Peng and Su, Qiang and Xu, Hong and Xue, Chun Jason and Brinkmann, Andr\'{e}},
-title = {Palantir: Hierarchical Similarity Detection for Post-Deduplication Delta Compression},
-year = {2024},
-isbn = {9798400703850},
-publisher = {Association for Computing Machinery},
-address = {New York, NY, USA},
-url = {https://doi.org/10.1145/3620665.3640353},
-doi = {10.1145/3620665.3640353},
-booktitle = {Proceedings of the 29th ACM International Conference on Architectural Support for Programming Languages and Operating Systems, Volume 2},
-pages = {830–845},
-numpages = {16},
-series = {ASPLOS '24}
-}
