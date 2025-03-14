@@ -1,12 +1,13 @@
-### dependences
-lz4 zstd glog-0.6.0以下 gflags gtest OpenBLAS gsl
+### Dependences
+lz4 zstd glog-under0.6.0 gflags gtest OpenBLAS gsl
 
-### 测试数据
-测试数据放入/cluster_compress/test_data/test/目录下
+### Test Files
+test data dir: `/cluster_compress/test_data/test/`
 
-### 编译运行 
-常规的cmake项目构建方式：
+### Build
+To build the library, run the following commands：
 ```
+git clone git@github.com:xiaodou1117/cluster_compress.git
 cd cluster_compress
 mkdir build
 cd build
@@ -15,7 +16,7 @@ make
 cd ..
 ```
 
-### 运行：
+### Run
 ```
 ./build/cluster_compression --config="config.toml"
 ```
