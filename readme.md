@@ -1,5 +1,5 @@
-###
-dependence: lz4 zstd glog-0.6.0以下 gflags OpenBLAS gsl
+### dependences
+lz4 zstd glog-0.6.0以下 gflags OpenBLAS gsl
 
 ### 测试数据
 测试数据放入/cluster_compress/test_data/test/目录下
