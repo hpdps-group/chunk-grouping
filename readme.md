@@ -1,5 +1,8 @@
 ### Introduction
 This project is an implementation of clustering compression algorithm.
+
+(C) 2025 by Institute of Computing Technology, Chinese Academy of Sciences.
+
 * Developers:
 * Advisors:
 
