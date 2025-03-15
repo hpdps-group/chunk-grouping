@@ -18,7 +18,7 @@ Ensure the following libraries are installed before building:
 ```
 mkdir chunk_grouping_ae
 cd chunk_grouping_ae
-export ROOT_DIR=$pwd
+export ROOT_DIR=$PWD
 mkdir dependencies
 ```
 
