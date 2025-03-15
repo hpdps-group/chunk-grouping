@@ -9,9 +9,9 @@ This project implements a chunk grouping/clustering algorithm to enhance the com
 ### software libraries requirements
 OS：Linux（Ubuntu is recommended）
 
-gcc：
+gcc
 
-cmake：
+cmake(>=3.10)
  
 ### Install Dependences
 Ensure the following libraries are installed before building:
