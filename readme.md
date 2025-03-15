@@ -6,6 +6,13 @@ This project implements a chunk grouping/clustering algorithm to enhance the com
 * Developers: Junyu Long, Liyang Zhao
 * Advisors: Dingwen Tao, Guangming Tan
 
+### software libraries requirements
+OS：Linux（Ubuntu is recommended）
+
+gcc：
+
+cmake：
+ 
 ### Install Dependences
 Ensure the following libraries are installed before building:
 - Compression Libraries: LZ4, Zstandard (ZSTD)
