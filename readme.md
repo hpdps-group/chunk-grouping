@@ -59,7 +59,7 @@ make && make install
 ### Test Files
 Test data should be placed in
 ```
-/cluster_compress/test_data/test/
+/chunk-grouping/test_data/test/
 ```
 
 ### Build the Project
@@ -67,7 +67,7 @@ Run the following commands to clone, build, and compile the project:
 
 ```
 git clone git@github.com:hpdps-group/chunk-grouping.git
-cd cluster_compress
+cd chunk-grouping
 mkdir build && cd build
 cmake .. && make -j
 cd ..
