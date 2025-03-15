@@ -33,8 +33,7 @@ tar -xvzf v0.6.0.tar.gz
 cd glog-0.6.0
 mkdir build && cd build
 cmake .. -DBUILD_SHARED_LIBS=ON -DBUILD_STATIC_LIBS=ON
-make
-make install
+make && make install
 ```
 
 - Testing Framework: gtest
