@@ -92,7 +92,7 @@ make && make install
 ```
 
 ### environment path
-Write in .bashrc
+Add to the end of .bashrc
 ```
 export LD_LIBRARY_PATH=$ROOT_DIR/dependencies/lib:$LD_LIBRARY_PATH
     export LIBRARY_PATH=$ROOT_DIR/dependencies/lib:$LIBRARY_PATH
@@ -118,7 +118,7 @@ Run the following commands to clone, build, and compile the project:
 
 ```
 cd $ROOT_DIR
-git clone git@github.com:hpdps-group/chunk-grouping.git
+git clone https://github.com/hpdps-group/chunk-grouping.git
 cd chunk-grouping
 mkdir build && cd build
 cmake .. && make -j
