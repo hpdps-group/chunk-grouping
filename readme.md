@@ -16,23 +16,25 @@ Zstandard: https://github.com/facebook/zstd. git clone and make
 
 - Logging & Flags: glog (version <= 0.6.0), gflags
 
-**glog**
-```
-wget https://github.com/google/glog/archive/refs/tags/v0.6.0.tar.gz
-tar -xvzf v0.6.0.tar.gz
-cd glog-0.6.0
-mkdir build && cd build
-cmake .. && make
-make install
-```
-
 **gflags**
 ```
 wget https://github.com/gflags/gflags/archive/refs/tags/v2.2.2.tar.gz
 tar -xvzf v2.2.2.tar.gz
 cd gflags
 mkdir build && cd build
+cmake .. -DBUILD_SHARED_LIBS=ON -DBUILD_STATIC_LIBS=ON
 make && make install
+```
+
+**glog**
+```
+wget https://github.com/google/glog/archive/refs/tags/v0.6.0.tar.gz
+tar -xvzf v0.6.0.tar.gz
+cd glog-0.6.0
+mkdir build && cd build
+cmake .. -DBUILD_SHARED_LIBS=ON -DBUILD_STATIC_LIBS=ON
+make
+make install
 ```
 
 - Testing Framework: gtest
