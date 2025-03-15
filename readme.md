@@ -91,7 +91,7 @@ cd gsl-2.8
 make && make install
 ```
 
-### environment path
+### Environment Path
 Add to the end of .bashrc
 ```
 export LD_LIBRARY_PATH=$ROOT_DIR/dependencies/lib:$LD_LIBRARY_PATH
