@@ -64,7 +64,7 @@ Test data should be placed in
 Run the following commands to clone, build, and compile the project:
 
 ```
-git clone git@github.com:xiaodou1117/cluster_compress.git
+git clone git@github.com:hpdps-group/chunk-grouping.git
 cd cluster_compress
 mkdir build && cd build
 cmake .. && make -j
