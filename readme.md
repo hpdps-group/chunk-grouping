@@ -65,6 +65,9 @@ make && make install
 ```
 
 ### Test Files
+```
+cd test_data && mkdir test
+```
 Test data should be placed in
 ```
 /chunk-grouping/test_data/test/
