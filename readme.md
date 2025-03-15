@@ -72,6 +72,7 @@ make && make install
 ```
 cd $ROOT_DIR
 wget https://github.com/google/googletest/archive/refs/tags/v1.16.0.tar.gz
+tar -xvzf v1.16.0.tar.gz
 cd googletest
 mkdir build && cd build
 cmake .. -DBUILD_SHARED_LIBS=ON -DBUILD_STATIC_LIBS=ON -DCMAKE_INSTALL_PREFIX=$ROOT_DIR/dependencies
