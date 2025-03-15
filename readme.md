@@ -49,7 +49,7 @@ cd $ROOT_DIR
 cd $ROOT_DIR
 wget https://github.com/gflags/gflags/archive/refs/tags/v2.2.2.tar.gz
 tar -xvzf v2.2.2.tar.gz
-cd gflags
+cd gflags-2.2.2
 mkdir build && cd build
 cmake .. -DBUILD_SHARED_LIBS=ON -DBUILD_STATIC_LIBS=ON -DCMAKE_INSTALL_PREFIX=$ROOT_DIR/dependencies
 make && make install
@@ -73,7 +73,7 @@ make && make install
 cd $ROOT_DIR
 wget https://github.com/google/googletest/archive/refs/tags/v1.16.0.tar.gz
 tar -xvzf v1.16.0.tar.gz
-cd googletest
+cd googletest-1.16.0
 mkdir build && cd build
 cmake .. -DBUILD_SHARED_LIBS=ON -DBUILD_STATIC_LIBS=ON -DCMAKE_INSTALL_PREFIX=$ROOT_DIR/dependencies
 make && make install
