@@ -9,7 +9,9 @@ This project implements a chunk grouping/clustering algorithm to enhance the com
 ### Install Dependences
 Ensure the following libraries are installed before building:
 - Compression Libraries: LZ4, Zstandard (ZSTD)
+
 LZ4: https://github.com/lz4/lz4. git clone and make
+
 Zstandard: https://github.com/facebook/zstd. git clone and make
 
 - Logging & Flags: glog (version <= 0.6.0), gflags
