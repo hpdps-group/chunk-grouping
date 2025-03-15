@@ -9,7 +9,7 @@ This project implements a chunk grouping/clustering algorithm to enhance the com
 ### software libraries requirements
 OS：Linux（Ubuntu is recommended）
 
-gcc
+gcc(>=7.1)
 
 cmake(>=3.10)
  
