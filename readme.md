@@ -79,6 +79,7 @@ cd chunk-grouping
 mkdir build && cd build
 cmake .. && make -j
 cd ..
+mkdir logs
 ```
 
 ### Running the Program
