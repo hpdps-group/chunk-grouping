@@ -13,6 +13,7 @@ LZ4: https://github.com/lz4/lz4. git clone and make
 Zstandard: https://github.com/facebook/zstd. git clone and make
 
 - Logging & Flags: glog (version <= 0.6.0), gflags
+
 **glog**
 ```
 wget https://github.com/google/glog/archive/refs/tags/v0.6.0.tar.gz
@@ -33,9 +34,15 @@ make && make install
 ```
 
 - Testing Framework: gtest
-
+```
+wget https://github.com/google/googletest/archive/refs/tags/v1.16.0.tar.gz
+cd googletest
+mkdir build && cd build
+make && make install
+```
 
 - Mathematical Libraries: GSL
+
 **GSL**
 ```
 wget https://mirror.ibcp.fr/pub/gnu/gsl/gsl-latest.tar.gz
