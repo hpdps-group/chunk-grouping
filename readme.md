@@ -6,12 +6,10 @@ This project implements a chunk grouping/clustering algorithm to enhance the com
 * Developers: Junyu Long, Liyang Zhao
 * Advisors: Dingwen Tao, Guangming Tan
 
-### software libraries requirements
-OS：Linux（Ubuntu is recommended）
-
-gcc(>=7.1)
-
-cmake(>=3.10)
+### Environment Requirements
+- OS：Linux（Ubuntu is recommended）
+- gcc(>=7.1)
+- cmake(>=3.10)
  
 ### Install Dependencies
 Ensure the following libraries are installed before building:
