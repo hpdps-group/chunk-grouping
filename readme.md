@@ -103,9 +103,6 @@ export LD_LIBRARY_PATH=$ROOT_DIR/dependencies/lib:$LD_LIBRARY_PATH
     export CPLUS_INCLUDE_PATH=$ROOT_DIR/lz4-1.10.0/lib:$ROOT_DIR/zstd-1.5.7/lib:$CPLUS_INCLUDE_PATH
 ```
 ### Test Files
-```
-cd test_data && mkdir test
-```
 Test data should be placed in
 ```
 /chunk-grouping/test_data/test/

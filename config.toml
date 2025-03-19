@@ -9,7 +9,6 @@ chunk_meta_path = "./test_data/default.meta"
 file_meta_path = "./test_data/default.file"
 
 [feature]
-# one of finesse, odess, n-transform, palantir, bestfit
 type = "palantir"
 
 [chunker]
