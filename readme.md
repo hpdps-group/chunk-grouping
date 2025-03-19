@@ -126,7 +126,7 @@ Use the following command to execute the chunk grouping algorithm:
 ```
 ./build/cluster_compression --config="config.toml"
 ```
-A test data has put in the test_data/test/ folder.Run and you will get example output.
 
 ### Example Output
+A test data has put in the test_data/test/ folder.Run and you will get example output.
 ![Example Output](example_output.png)
